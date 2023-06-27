@@ -24,3 +24,5 @@ IDE: Eclipse
 <a href="https://velog.io/@wordi/SpringMaven%EC%9D%B4%EB%9E%80">1. Maven</a>
 <br>
 2. pom.xml
+3. Build
+4. Dependency mechanism
