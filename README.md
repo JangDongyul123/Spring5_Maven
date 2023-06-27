@@ -1,4 +1,4 @@
-# Spring5_Maven을 공부한 기록
+# Spring5와 Maven을 공부한 기록
 프레임워크: Spring5
 <br>
 자바: JDK 11
