@@ -11,7 +11,7 @@ IDE: Eclipse
 <h3><a href="https://velog.io/@wordi/series/Spring">1. 스프링의 특징</a> </h3>
 <a href="https://velog.io/@wordi/Spring%EC%9D%98-%ED%8A%B9%EC%A7%95">1. POJO</a>
 <br>
-2. DI(Dependency Injection)와 IOC(inversion of control) 컨테이너
+<a href="https://velog.io/@wordi/2.-DIDependency-Injection와-IOCinversion-of-control-컨테이너">2. DI(Dependency Injection)와 IOC(inversion of control) 컨테이너</a>
 <br>
 3. AOP(Aspect Oriented Programming)
 <br>
