@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+	
+	<bean id= "id_EP" class="kr.ac.dongyul.EnglishPrinter">
+		<property name="brandName" value="Apple"></property>
+		<qualifier value="qf_EP"></qualifier>
+	</bean>
+	
+	<bean id="id_KP" class="kr.ac.dongyul.KoreanPrinter">
+		<property name="brandName" value="Samsung"></property>
+		<qualifier value="qf_KP"></qualifier>
+	</bean>
+
+	<bean id="id_PB" class="kr.ac.dongyul.Publisher">
+		
+		<!-- 생성자로 의존성 주입 
+		<constructor-arg name="printer1" ref="id_EP"></constructor-arg>
+		<constructor-arg name="printer2" ref="id_KP"></constructor-arg>
+ 		-->	
+ 	</bean>
+	
+	<!-- Autowired 어노테이션 활성화 설정파일 -->
+	<!--xmlns:context="http://www.springframework.org/schema/context"도 추가해야한다.  -->
+	<context:annotation-config>
+	
+	</context:annotation-config>
+</beans>
